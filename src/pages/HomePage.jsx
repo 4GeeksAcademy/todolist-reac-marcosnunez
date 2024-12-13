@@ -1,11 +1,9 @@
-import HomePageContent from "../components/HomePage/HomePageContent";
-import HomePageHeader from "../components/HomePage/HomePageHeader";
+import ToDoList from "../components/HomePage/ToDoList";
 
 const HomePage = () => {
   return (
     <>
-      <HomePageHeader />
-      <HomePageContent />
+      <ToDoList />
     </>
   );
 };
